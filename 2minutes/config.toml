@@ -1,0 +1,3 @@
+baseurl = "http://yanzewei.github.io/hugo_blog"
+languageCode = "en-us"
+title = "My New Hugo Site"
