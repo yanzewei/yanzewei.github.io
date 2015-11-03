@@ -2,3 +2,7 @@ baseurl = "http://yanzewei.github.io/1minute/"
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "hugo-uno"
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+canonifyurls = true
