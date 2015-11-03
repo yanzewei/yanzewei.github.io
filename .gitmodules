@@ -1,0 +1,3 @@
+[submodule "1minute/themes/hugo-uno"]
+	path = 1minute/themes/hugo-uno
+	url = https://github.com/yanzewei/hugo-uno
