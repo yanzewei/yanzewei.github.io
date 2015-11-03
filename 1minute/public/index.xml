@@ -3,11 +3,21 @@
   <channel>
       <title> on My New Hugo Site </title>
       <generator uri="https://gohugo.io">Hugo</generator>
-    <link>http://yanzewei.github.io/1minute/</link>
+    <link>http://localhost:1313/1minute/</link>
     <language>en-us</language>
     
     
-    <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
+    <updated>Tue, 03 Nov 2015 21:07:30 HKT</updated>
+    
+    <item>
+      <title>welcome</title>
+      <link>http://localhost:1313/1minute/post/welcome/</link>
+      <pubDate>Tue, 03 Nov 2015 21:07:30 HKT</pubDate>
+      
+      <guid>http://localhost:1313/1minute/post/welcome/</guid>
+      <description>&lt;p&gt;xxxxxxxxdsfsdfsdfsf&lt;/p&gt;
+</description>
+    </item>
     
   </channel>
 </rss>
