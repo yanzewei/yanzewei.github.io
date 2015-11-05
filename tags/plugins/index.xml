@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Plugins on My Blog </title>
+      <generator uri="https://gohugo.io">Hugo</generator>
+    <link>http://yanzewei.github.io/tags/plugins/</link>
+    <language>en-us</language>
+    
+    
+    <updated>Wed, 04 Nov 2015 22:08:00 HKT</updated>
+    
+    <item>
+      <title>welcome</title>
+      <link>http://yanzewei.github.io/post/welcome/</link>
+      <pubDate>Wed, 04 Nov 2015 22:08:00 HKT</pubDate>
+      
+      <guid>http://yanzewei.github.io/post/welcome/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;hugo and github pages&lt;/strong&gt;
+    long time to say&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;hehe
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
