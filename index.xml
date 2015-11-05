@@ -6,7 +6,18 @@
     <description>Recent content on My Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Fri, 06 Nov 2015 00:05:55 +0800</lastBuildDate>
     <atom:link href="http://yanzewei.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>test</title>
+      <link>http://yanzewei.github.io/post/test/</link>
+      <pubDate>Fri, 06 Nov 2015 00:05:55 +0800</pubDate>
+      
+      <guid>http://yanzewei.github.io/post/test/</guid>
+      <description>&lt;p&gt;我来测试下&lt;/p&gt;
+</description>
+    </item>
     
   </channel>
 </rss>
