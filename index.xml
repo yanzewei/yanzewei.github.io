@@ -15,9 +15,11 @@
       <pubDate>Fri, 06 Nov 2015 00:05:55 +0800</pubDate>
       
       <guid>http://yanzewei.github.io/post/test/</guid>
-      <description>&lt;p&gt;我来测试下
-#Markdown &amp;ndash; Mou
-&lt;img src=&#34;http://mouapp.com/Mou_128.png&#34; alt=&#34;Mou 图标&#34; /&gt;&lt;/p&gt;
+      <description>&lt;p&gt;#我来测试下&lt;/p&gt;
+
+&lt;p&gt;#Markdown &amp;ndash; Mou&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://mouapp.com/Mou_128.png&#34; alt=&#34;Mou 图标&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
