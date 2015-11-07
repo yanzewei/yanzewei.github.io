@@ -17,13 +17,13 @@
       <guid>http://yanzewei.github.io/post/test/</guid>
       <description>
 
-&lt;h1 id=&#34;标题:b128b7694e4de962e0088bcb1bcb254f&#34;&gt;标题&lt;/h1&gt;
+&lt;h2 id=&#34;标题:b128b7694e4de962e0088bcb1bcb254f&#34;&gt;标题&lt;/h2&gt;
 
 &lt;p&gt;Hello, world!&lt;/p&gt;
 
-&lt;p&gt;#我来测试下&lt;/p&gt;
+&lt;p&gt;##我来测试下&lt;/p&gt;
 
-&lt;p&gt;#Markdown &amp;ndash; Mou&lt;/p&gt;
+&lt;p&gt;##Markdown &amp;ndash; Mou&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://mouapp.com/Mou_128.png&#34; alt=&#34;Mou 图标&#34; /&gt;&lt;/p&gt;
 </description>
