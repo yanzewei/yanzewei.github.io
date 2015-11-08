@@ -39,7 +39,7 @@
 
 &lt;h2 id=&#34;工作区-与-暂存区的区别-以及-git-commit-与-git-push的区别:4b413fdebfe42d43590394b35a48620b&#34;&gt;工作区 与 暂存区的区别 以及 git commit 与 git push的区别&lt;/h2&gt;
 
-&lt;p&gt;%Hello &lt;strong&gt;World!&lt;/strong&gt;%&lt;/p&gt;
+&lt;p&gt;&amp;lt;%Hello &lt;strong&gt;World!&lt;/strong&gt;%&amp;gt;&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;工作区就是你电脑能看到的。
 
