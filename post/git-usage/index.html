@@ -35,23 +35,6 @@
 
 <h2 id="工作区-与-暂存区的区别-以及-git-commit-与-git-push的区别:4b413fdebfe42d43590394b35a48620b">工作区 与 暂存区的区别 以及 git commit 与 git push的区别</h2>
 
-<pre><code>工作区就是你电脑能看到的。
-
-工作区里有个.git的隐藏目录。它就是所谓的版本库。几乎所有的git存储和操作的内容都位于其下。如果想备份库，注意要将其拷贝到其它地方。它里面就包含了stage(或叫index) files的暂存区。git会为我们创建第一个分支,叫master，以及有个指向master的指针Head
-
-要强调一点。*** git保存的不是文件差异或变化量 ***，而是***一系列快照***
-
-git add 的时候会把文件修改提交到暂存区。
-
-git commit 的时候才把其提交到master.这个只是保存到了本地的版本库
-
-git push 的时候会把修改提交到远程版本库。
-</code></pre>
-
-<h2 id="git-rm-与-rm的区别:4b413fdebfe42d43590394b35a48620b">git rm 与 rm的区别</h2>
-
-<p>rm是物理删除掉工作区的文件。</p>
-
 
   </main>
 
