@@ -28,7 +28,7 @@
 要强调一点。
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;*** git保存的不是文件差异或变化量 ***
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;git保存的不是文件差异或变化量&lt;/em&gt;&lt;/strong&gt;
 ，而是
 &lt;strong&gt;&lt;em&gt;一系列快照&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
