@@ -21,27 +21,42 @@
 
 &lt;blockquote&gt;
 &lt;p&gt;工作区就是你电脑能看到的。&lt;/p&gt;
-&lt;/blockquote&gt;
 
-&lt;pre&gt;&lt;code&gt;工作区里有个.git的隐藏目录。它就是所谓的版本库。几乎所有的git存储和操作的内容都位于其下。如果想备份库，注意要将其拷贝到其它地方。它里面就包含了stage(或叫index) files的暂存区。git会为我们创建第一个分支,叫master，以及有个指向master的指针Head
+&lt;p&gt;工作区里有个.git的隐藏目录。它就是所谓的版本库。几乎所有的git存储和操作的内容都位于其下。如果想备份库，注意要将其拷贝到其它地方。它里面就包含了stage(或叫index) files的暂存区。git会为我们创建第一个分支,叫master，以及有个指向master的指针Head&lt;/p&gt;
 
-要强调一点。
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;git保存的不是文件差异或变化量&lt;/em&gt;&lt;/strong&gt;
+&lt;p&gt;要强调一点。
+&lt;strong&gt;&lt;em&gt;git保存的不是文件差异或变化量&lt;/em&gt;&lt;/strong&gt;
 ，而是
 &lt;strong&gt;&lt;em&gt;一系列快照&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;git add 的时候会把文件修改提交到暂存区。
+&lt;p&gt;git add 的时候会把文件修改提交到暂存区。&lt;/p&gt;
 
-git commit 的时候才把其提交到master.这个只是保存到了本地的版本库
+&lt;p&gt;git commit 的时候才把其提交到master.这个只是保存到了本地的版本库&lt;/p&gt;
 
-git push 的时候会把修改提交到远程版本库。
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;git push 的时候会把修改提交到远程版本库。&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;h2 id=&#34;git-rm-与-rm的区别:4b413fdebfe42d43590394b35a48620b&#34;&gt;git rm 与 rm的区别&lt;/h2&gt;
 
-&lt;p&gt;rm是物理删除掉工作区的文件。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;rm是物理删除掉工作区的文件。之后要执行git commit -am &amp;ldquo;msg&amp;rdquo;,其中a参数表示all,提交所有删除和修改的文件,但新增的不算.&lt;/p&gt;
+
+&lt;p&gt;执行完上面的操作就相当于执行了git rm.&lt;/p&gt;
+
+&lt;p&gt;那万一把工作区文件删错了,想恢复咋办.先执行git status,它会提示你Changes not staged for commit里deleted的文件有哪些,例如test.txt.然后你可以通过执行git checkout &amp;ndash;test.txt,删掉如果是文件夹也可以有这个命令恢复.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;在自己库再引入其它的库-怎么办:4b413fdebfe42d43590394b35a48620b&#34;&gt;在自己库再引入其它的库,怎么办&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;git clone 是不行的,提交时会报错.应该用git submodule add命令.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;如何解决冲突:4b413fdebfe42d43590394b35a48620b&#34;&gt;如何解决冲突&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;修改前没先git pull,导致了push时出现冲突.这时只要人工合并下冲突,再commit,再push就行.&lt;/p&gt;
+&lt;/blockquote&gt;
 </description>
     </item>
     
