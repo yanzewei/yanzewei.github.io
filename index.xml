@@ -6,8 +6,24 @@
     <description>Recent content on My Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Nov 2015 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2015 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://yanzewei.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>linux管理命令札记</title>
+      <link>http://yanzewei.github.io/post/network-command/</link>
+      <pubDate>Wed, 11 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://yanzewei.github.io/post/network-command/</guid>
+      <description>
+
+&lt;h2 id=&#34;netstat查看端口是否被占用:d4a925e2a9bec01f30bb498499c4c818&#34;&gt;netstat查看端口是否被占用&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;例:nestat -anp | grep &amp;lsquo;8088&amp;rsquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
     
     <item>
       <title>初学git的几点疑问</title>
