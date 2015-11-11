@@ -22,6 +22,12 @@
 &lt;blockquote&gt;
 &lt;p&gt;例:nestat -anp | grep &amp;lsquo;8088&amp;rsquo;&lt;/p&gt;
 &lt;/blockquote&gt;
+
+&lt;h2 id=&#34;dig与ping:d4a925e2a9bec01f30bb498499c4c818&#34;&gt;dig与ping&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;dig全称是dns information groper.可以查看域名对应的dns节点,如dig www.baidu.com.ping只能返回最近的一个节点.&lt;/p&gt;
+&lt;/blockquote&gt;
 </description>
     </item>
     
