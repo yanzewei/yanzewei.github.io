@@ -41,7 +41,7 @@
 
 &lt;p&gt;c语言实现代码：&lt;/p&gt;
 
-&lt;h3 id=&#34;思路:de4de28282dc3dd85e1a82e3b6f91514&#34;&gt;思路&lt;/h3&gt;
+&lt;h3 id=&#34;我的思路:de4de28282dc3dd85e1a82e3b6f91514&#34;&gt;我的思路&lt;/h3&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;取n个物品的最优值S[n]，那先想想取前n-1件物品的最优值，设为S[n-1]，如果S[n-1]+A[n]&amp;gt;m，那么S[n]=S[n-1];&lt;/p&gt;
