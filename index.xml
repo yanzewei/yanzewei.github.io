@@ -6,8 +6,79 @@
     <description>Recent content on My Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 Nov 2015 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2015 00:42:47 +0800</lastBuildDate>
     <atom:link href="http://yanzewei.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>backpack</title>
+      <link>http://yanzewei.github.io/post/backpack/</link>
+      <pubDate>Sat, 14 Nov 2015 00:42:47 +0800</pubDate>
+      
+      <guid>http://yanzewei.github.io/post/backpack/</guid>
+      <description>&lt;p&gt;###样例
+&amp;gt;如果有4个物品[2, 3, 5, 7]&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;如果背包的大小为11，可以选择[2, 3, 5]装入背包，最多可以装满10的空间。&lt;/p&gt;
+
+&lt;p&gt;如果背包的大小为12，可以选择[2, 3, 7]装入背包，最多可以装满12的空间。&lt;/p&gt;
+
+&lt;p&gt;函数需要返回最多能装满的空间大小。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;###注意
+&amp;gt;你不可以将物品进行切割。&lt;/p&gt;
+
+&lt;p&gt;c语言实现代码：&lt;/p&gt;
+
+&lt;p&gt;###思路
+&amp;gt;取n个物品的最优值S[n]，那先想想取前n-1件物品的最优值，设为S[n-1]，如果S[n-1]+A[n]&amp;gt;m，那么S[n]=S[n-1];
+&amp;gt;取0个物品的最优值S[0],应该为0，以它为初始值；
+&amp;gt;递归的去遍历这个过程，取j=0,j++到m,记S[i][j],表示取前i件物品填充j大小的空间的最优值。&lt;/p&gt;
+
+&lt;p&gt;###C语言实现代码
+&amp;gt;#include&lt;stdio.h&gt;
+&amp;gt;#include&lt;stdlib.h&gt;
+&amp;gt;int main()
+&amp;gt;{
+&amp;gt;        int i,j,n,m,*A,**S;
+&amp;gt;        printf(&amp;ldquo;input backage weight:\n&amp;rdquo;);
+&amp;gt;        scanf(&amp;ldquo;%d&amp;rdquo;,&amp;amp;m);
+&amp;gt;        printf(&amp;ldquo;input items number:\n&amp;rdquo;);
+&amp;gt;        scanf(&amp;ldquo;%d&amp;rdquo;,&amp;amp;n);
+&amp;gt;        printf(&amp;ldquo;input each item weight:\n&amp;rdquo;);
+&amp;gt;        A = (int *)malloc(n*sizeof(int));
+&amp;gt;        S = (int **)malloc((n+1)*sizeof(int * ));
+&amp;gt;        S[0] = (int *)malloc(m*sizeof(int));
+&amp;gt;        for(i=1;i&amp;lt;=n;i++)
+&amp;gt;        {&lt;br /&gt;
+&amp;gt;                scanf(&amp;ldquo;%d&amp;rdquo;,&amp;amp;A[i-1]);
+&amp;gt;                S[i] = (int *)malloc(m*sizeof(int));
+&amp;gt;        }&lt;br /&gt;
+&amp;gt;        for(j=0;j&amp;lt;=m;j++)
+&amp;gt;        {&lt;br /&gt;
+&amp;gt;                S[0][j] = 0;
+&amp;gt;        }&lt;br /&gt;
+&amp;gt;        for(i=1;i&amp;lt;=n;i++)
+&amp;gt;        {&lt;br /&gt;
+&amp;gt;           for(j=0;j&amp;lt;=m;j++)
+&amp;gt;                {&lt;br /&gt;
+&amp;gt;                        S[i][j] = S[i-1][j];
+&amp;gt;                        if(j&amp;gt;=A[i-1])
+&amp;gt;                        {&lt;br /&gt;
+&amp;gt;                                if(S[i][j-A[i-1]] + A[i-1] &amp;gt; S[i][j])
+&amp;gt;                                {&lt;br /&gt;
+&amp;gt;                                        S[i][j] = S[i][j-A[i-1]] + A[i-1];
+&amp;gt;                                }&lt;br /&gt;
+&amp;gt;                        }
+&amp;gt;       }
+&amp;gt;   }
+&amp;gt;   printf(&amp;ldquo;max weight:%d\n&amp;rdquo;,S[n][m]);
+&amp;gt;        return 0;
+&amp;gt;}
+&amp;gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>linux管理命令札记</title>

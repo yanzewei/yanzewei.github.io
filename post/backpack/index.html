@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="author" content="Marlon Cabrera Oliveira">
+    <meta name="description" content="Hugo theme using tachyons.io & geomicons.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic|PT+Mono&amp;subset=latin,cyrillic">
+    <link rel="stylesheet" href="/css/tachyons.css">
+    <style>
+        .geomicon { width: 1.5em; height: 1.5em; color: #405660; }
+        body{ font-family:'PT Sans', sans-serif; }
+    </style>
+  </head>
+  <body>
+      <header class="tc pal bb b-near-white">
+    <h1 class="f6 thin i link-child"><a href="/">老严的博客</a></h1>
+        <nav>
+          <ul class="list pln">
+            <li class="dib prm"><a href="/"><span class="js-geomicon geomicon" data-icon="home"></span>Home</a></li>
+            <li class="dib prm"><a href="/post"><span class="js-geomicon geomicon" data-icon="compose"></span>Blog</a></li>
+            
+          </ul>
+        </nav>
+        </header>
+
+
+  <main class="pal">
+
+    <h1>backpack</h1>
+    <h2>Nov 14, 2015</h2>
+      <p>###样例
+&gt;如果有4个物品[2, 3, 5, 7]</p>
+
+<blockquote>
+<p>如果背包的大小为11，可以选择[2, 3, 5]装入背包，最多可以装满10的空间。</p>
+
+<p>如果背包的大小为12，可以选择[2, 3, 7]装入背包，最多可以装满12的空间。</p>
+
+<p>函数需要返回最多能装满的空间大小。</p>
+</blockquote>
+
+<p>###注意
+&gt;你不可以将物品进行切割。</p>
+
+<p>c语言实现代码：</p>
+
+<p>###思路
+&gt;取n个物品的最优值S[n]，那先想想取前n-1件物品的最优值，设为S[n-1]，如果S[n-1]+A[n]&gt;m，那么S[n]=S[n-1];
+&gt;取0个物品的最优值S[0],应该为0，以它为初始值；
+&gt;递归的去遍历这个过程，取j=0,j++到m,记S[i][j],表示取前i件物品填充j大小的空间的最优值。</p>
+
+<p>###C语言实现代码
+&gt;#include<stdio.h>
+&gt;#include<stdlib.h>
+&gt;int main()
+&gt;{
+&gt;        int i,j,n,m,*A,**S;
+&gt;        printf(&ldquo;input backage weight:\n&rdquo;);
+&gt;        scanf(&ldquo;%d&rdquo;,&amp;m);
+&gt;        printf(&ldquo;input items number:\n&rdquo;);
+&gt;        scanf(&ldquo;%d&rdquo;,&amp;n);
+&gt;        printf(&ldquo;input each item weight:\n&rdquo;);
+&gt;        A = (int *)malloc(n*sizeof(int));
+&gt;        S = (int **)malloc((n+1)*sizeof(int * ));
+&gt;        S[0] = (int *)malloc(m*sizeof(int));
+&gt;        for(i=1;i&lt;=n;i++)
+&gt;        {<br />
+&gt;                scanf(&ldquo;%d&rdquo;,&amp;A[i-1]);
+&gt;                S[i] = (int *)malloc(m*sizeof(int));
+&gt;        }<br />
+&gt;        for(j=0;j&lt;=m;j++)
+&gt;        {<br />
+&gt;                S[0][j] = 0;
+&gt;        }<br />
+&gt;        for(i=1;i&lt;=n;i++)
+&gt;        {<br />
+&gt;           for(j=0;j&lt;=m;j++)
+&gt;                {<br />
+&gt;                        S[i][j] = S[i-1][j];
+&gt;                        if(j&gt;=A[i-1])
+&gt;                        {<br />
+&gt;                                if(S[i][j-A[i-1]] + A[i-1] &gt; S[i][j])
+&gt;                                {<br />
+&gt;                                        S[i][j] = S[i][j-A[i-1]] + A[i-1];
+&gt;                                }<br />
+&gt;                        }
+&gt;       }
+&gt;   }
+&gt;   printf(&ldquo;max weight:%d\n&rdquo;,S[n][m]);
+&gt;        return 0;
+&gt;}
+&gt;</p>
+
+
+  </main>
+
+<footer class="tc center bt b--near-white pvx phm pax-m phxl-l pvx-l">
+        <small class="f5 mw7 db center phm lh-copy">
+          <nav>
+              <ul class="list pln">
+                  <li class="dib prm"><a href="https://www.github.com"><span class="js-geomicon geomicon blue" data-icon="github"></span></a></li>
+                  <li class="dib prm"><a href="https://www.twitter.com"><span class="js-geomicon geomicon blue" data-icon="twitter"></span></a></li>
+              </ul>
+              </nav>
+              Copyright-  2015
+        </small>
+    </footer>
+    <script src="http://d2v52k3cl9vedd.cloudfront.net/geomicons/0.2.0/geomicons.min.js.gz"></script>
+    <script>
+        var icons = document.querySelectorAll('.geomicon');
+        Geomicons.inject(icons);
+    </script>
+  </body>
+</html>
+
