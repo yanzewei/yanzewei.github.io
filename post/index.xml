@@ -129,7 +129,11 @@
 
 &lt;p&gt;printf(&amp;ldquo;max weight:%d\n&amp;rdquo;,S[n][m]);&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;   return 0;
+&lt;p&gt;free(A);&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  free(S);
+
+   return 0;
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;}&lt;/p&gt;
