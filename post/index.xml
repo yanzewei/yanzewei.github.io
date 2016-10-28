@@ -6,8 +6,73 @@
     <description>Recent content in Posts on My Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 28 Oct 2016 12:04:58 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 28 Oct 2016 15:53:22 +0800</lastBuildDate>
     <atom:link href="http://yanzewei.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>markdown example</title>
+      <link>http://yanzewei.github.io/post/markdown-example/</link>
+      <pubDate>Fri, 28 Oct 2016 15:53:22 +0800</pubDate>
+      
+      <guid>http://yanzewei.github.io/post/markdown-example/</guid>
+      <description>
+
+&lt;h1 id=&#34;标题:c3a3a8e0673668b9aea76afe191bdee7&#34;&gt;标题&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;无序列表&lt;/li&gt;
+&lt;li&gt;无序列表2&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;无序列表3&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;有序列表&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;有序列表2&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;有序列表3&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;这是个引用
+试试&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;** 粗体 **
+* 斜体 *&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://yanzw.net&#34;&gt;http://yanzw.net&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://yanzw.net&#34; title=&#34;老严&#34;&gt;呵呵&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://yanzw.net&#34; title=&#34;老严&#34;&gt;呵呵&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://yanzewei.github.io/path/to/img.jpg&#34; alt=&#34;&#34; title=&#34;呵呵&#34; /&gt;{ImgCap}alt Text{ImgCap}&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://img3.douban.com/mpic/s1108264.jpg&#34; alt=&#34;&#34; /&gt;]&lt;a href=&#34;http://book.douban.com/subject/1141406/&#34;&gt;jane-eyre-douban&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;php&amp;gt; phpinfo(); 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;~~ test ~~
+&lt;code&gt;python here&lt;/code&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;呆&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;子&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;聪&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;明&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;孙子&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;逗&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>php sort</title>
@@ -27,7 +92,7 @@
 
 &lt;h3 id=&#34;时间和空间复杂度:5b1f4b8fb2b5b71dd1bffd8957c58ac6&#34;&gt;时间和空间复杂度&lt;/h3&gt;
 
-&lt;p&gt;###举一反三####&lt;/p&gt;
+&lt;h3 id=&#34;举一反三:5b1f4b8fb2b5b71dd1bffd8957c58ac6&#34;&gt;举一反三&lt;/h3&gt;
 </description>
     </item>
     
