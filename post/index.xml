@@ -22,23 +22,18 @@
 &lt;ul&gt;
 &lt;li&gt;无序列表&lt;/li&gt;
 &lt;li&gt;无序列表2&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;无序列表3&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;有序列表&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;有序列表2&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;有序列表3&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;无序列表3&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;这是个引用
-试试&lt;/p&gt;
+&lt;p&gt;这是个引用&lt;/p&gt;
+
+&lt;p&gt;试试&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;** 粗体 **
-* 斜体 *&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;粗体&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;斜体&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://yanzw.net&#34;&gt;http://yanzw.net&lt;/a&gt;&lt;/p&gt;
 
@@ -55,22 +50,11 @@
 
 &lt;hr /&gt;
 
-&lt;p&gt;~~ test ~~
-&lt;code&gt;python here&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;test&lt;/del&gt;&lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt;呆&lt;/li&gt;
+&lt;pre&gt;&lt;code&gt; python here
 
-&lt;li&gt;&lt;p&gt;子&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;聪&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;明&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;孙子&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;逗&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     
