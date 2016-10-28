@@ -47,12 +47,11 @@
 
 &lt;hr /&gt;
 
-&lt;ul&gt;
-&lt;li&gt;[ ] a task list item&lt;/li&gt;
-&lt;li&gt;[ ] list syntax required&lt;/li&gt;
-&lt;li&gt;[ ] incomplete&lt;/li&gt;
-&lt;li&gt;[x] completed&lt;/li&gt;
-&lt;/ul&gt;
+
+&lt;html&gt;
+    &lt;body&gt; This HTML &lt;/body&gt;
+&lt;/html&gt;
+
 
 &lt;p&gt;&lt;del&gt;删除线&lt;/del&gt;&lt;/p&gt;
 </description>
