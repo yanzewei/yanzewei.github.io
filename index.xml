@@ -6,8 +6,26 @@
     <description>Recent content on My Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 31 Oct 2016 14:55:20 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 31 Oct 2016 16:46:59 +0800</lastBuildDate>
     <atom:link href="http://yanzewei.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>learning skill</title>
+      <link>http://yanzewei.github.io/post/learning-skill/</link>
+      <pubDate>Mon, 31 Oct 2016 16:46:59 +0800</pubDate>
+      
+      <guid>http://yanzewei.github.io/post/learning-skill/</guid>
+      <description>&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;想象出一个图,研究它&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;相关的概念,术语与释义熟记&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;假设,变量与条件&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;据上述提些问题, 找到答案, 基本就弄熟了.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
     
     <item>
       <title>experience</title>
