@@ -6,8 +6,30 @@
     <description>Recent content on My Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 28 Oct 2016 12:04:58 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 31 Oct 2016 14:21:28 +0800</lastBuildDate>
     <atom:link href="http://yanzewei.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>google search trick</title>
+      <link>http://yanzewei.github.io/post/google-search-trick/</link>
+      <pubDate>Mon, 31 Oct 2016 14:21:28 +0800</pubDate>
+      
+      <guid>http://yanzewei.github.io/post/google-search-trick/</guid>
+      <description>
+
+&lt;h1 id=&#34;google-search-trick:9d717e3e14b3764722cba21b5a965480&#34;&gt;google search trick&lt;/h1&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&amp;rdquo;&amp;ldquo;表示全匹配&lt;/li&gt;
+&lt;li&gt;- 表示去除掉 例：搜索 - 引擎&lt;/li&gt;
+&lt;li&gt;* 通配符 例：搜索*&lt;/li&gt;
+&lt;li&gt;inurl:yanzw&lt;/li&gt;
+&lt;li&gt;intitle:肉身翻墙&lt;/li&gt;
+&lt;li&gt;filetype:pdf&lt;/li&gt;
+&lt;li&gt;site:yanzw.net&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
     
     <item>
       <title>php sort</title>
