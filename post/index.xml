@@ -28,6 +28,28 @@
 
 &lt;p&gt;循环加载下,commonJs是加载时执行,而es6只是生成被加载模块的引用.&lt;/p&gt;
 &lt;/blockquote&gt;
+
+&lt;h2 id=&#34;amd-与-cmd:af61ba8fc61d4003aefe600be3b01d50&#34;&gt;amd 与 cmd&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;amd:异步模块规范, cmd:通用模块规范&lt;/p&gt;
+
+&lt;p&gt;amd 是requireJs 产出的,cmd 的是seaJs产出的&lt;/p&gt;
+
+&lt;p&gt;amd 提倡预先执行, cmd 提倡懒执行&lt;/p&gt;
+
+&lt;p&gt;seaJs注重代码调试&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;模块加载器出现前的问题:af61ba8fc61d4003aefe600be3b01d50&#34;&gt;模块加载器出现前的问题&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;一次加载多个js文件, 加载的时候, 浏览器会停止对网页的渲染.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;js文件间存在依赖关系, 必须把依赖最大的放在最后.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
 </description>
     </item>
     
