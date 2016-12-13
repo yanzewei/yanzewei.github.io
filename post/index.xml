@@ -6,8 +6,30 @@
     <description>Recent content in Posts on My Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 31 Oct 2016 16:46:59 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 14 Dec 2016 00:14:13 +0800</lastBuildDate>
     <atom:link href="http://yanzewei.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>js module</title>
+      <link>http://yanzewei.github.io/post/js-module/</link>
+      <pubDate>Wed, 14 Dec 2016 00:14:13 +0800</pubDate>
+      
+      <guid>http://yanzewei.github.io/post/js-module/</guid>
+      <description>
+
+&lt;h1 id=&#34;js-模块化的学习:af61ba8fc61d4003aefe600be3b01d50&#34;&gt;js 模块化的学习&lt;/h1&gt;
+
+&lt;h2 id=&#34;es6与commonjs模块加载的区别:af61ba8fc61d4003aefe600be3b01d50&#34;&gt;es6与commonJs模块加载的区别&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;es6为ECMAScript2016标准,commonJs为此前为解决模块化的模块加载器.&lt;/p&gt;
+
+&lt;p&gt;es6的模块输出为引用 , commonJs的模块输出为值.&lt;/p&gt;
+
+&lt;p&gt;循环加载下,commonJs是加载时执行,而es6只是生成被加载模块的引用.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
     
     <item>
       <title>learning skill</title>
