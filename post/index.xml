@@ -38,7 +38,7 @@
 
 &lt;p&gt;amd 提倡预先执行, cmd 提倡懒执行&lt;/p&gt;
 
-&lt;p&gt;seaJs注重代码调试&lt;/p&gt;
+&lt;p&gt;seaJs注重代码调试, 依赖spm打包&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;h2 id=&#34;模块加载器出现前的问题:af61ba8fc61d4003aefe600be3b01d50&#34;&gt;模块加载器出现前的问题&lt;/h2&gt;
